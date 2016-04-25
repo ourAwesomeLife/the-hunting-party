@@ -1,0 +1,26 @@
+---
+---
+
+$nav-font-color: #3F41A1;
+
+.navbar-custom:not(.top-nav-collapse) {
+  background-color: rgba(255,255,255,0.6);
+
+  .navbar-brand>div,
+  .navbar-collapse li>a {
+    color: $nav-font-color;
+    transition: all 0.3s ease;
+    text-shadow: none;
+
+    &:hover {
+      color: #4D97D4;
+    }
+  }
+
+  .nav li a:hover {
+    outline: none;
+    background-color: rgba(255,255,255,0);
+  }
+}
+
+
